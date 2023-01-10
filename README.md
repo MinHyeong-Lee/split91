@@ -69,4 +69,15 @@ If you assemble all of parts after print out stl files, it is as follows.
 
 
 # Assembly  
-asdads
+It is recommended to refer to [split89](https://github.com/jurassic73/split89) for the overall build guide. It is written in great detail.  
+I will only fill out the changed parts according to the addition of the switch.  
+
+## left body
+![left body](https://user-images.githubusercontent.com/48749902/211587024-b4f52067-8dcd-4dfe-8664-59f81b215e6f.png)  
+left body is as same as split89  
+
+## right body
+![wire](https://user-images.githubusercontent.com/48749902/211585977-b1074450-3e16-47ba-966f-0aad6541c5dd.png)  
+Row and column connection of the right body is shown in the picture above.  
+This is a wirring that matches the keymap I uploaded. If you plan to compile qmk firmware yourself, you can change wirring.  
+Ignore the blue line and look at the red line.  
