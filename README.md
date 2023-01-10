@@ -1,5 +1,5 @@
 # split91 keyboard - Split Keyboard with right-hand B
-![split91](https://user-images.githubusercontent.com/48749902/211574503-6af25d57-7dae-4fd4-998a-3e465d37f2c3.jpeg)
+![IMG_1773](https://user-images.githubusercontent.com/48749902/211684901-b1a25db1-95a3-4478-ae7c-319cf5f1e81f.JPG)
 
 This keyboard is based on [split89](https://github.com/jurassic73/split89)
 
