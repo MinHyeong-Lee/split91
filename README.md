@@ -20,6 +20,7 @@ Thanks to [Jurassic73](https://github.com/jurassic73) for sharing a good keyboar
 
 **Table of Contents**  
 [Bill of Materials](#bill-of-materials)  
+[Assembly](#assembly)  
 
 # Bill of Materials  
   * 3d printed components in [3d_printing_stl_files](https://github.com/MinHyeong-Lee/split91/tree/main/3d_printing_stl_files) directory  
@@ -47,3 +48,25 @@ Thanks to [Jurassic73](https://github.com/jurassic73) for sharing a good keyboar
 If you assemble all of parts after print out stl files, it is as follows.  
 ![split91_full_shot](https://user-images.githubusercontent.com/48749902/211576933-84ce6240-42ce-4db7-ad03-40a5450aa896.png)
 
+  * [components.png](https://github.com/MinHyeong-Lee/split91/blob/main/3d_printing_stl_files/components.png) - Materials required for assembly
+  * (2) Pro Micro ATmega32U4 (5v 16MHz USB micro)  
+![image](https://user-images.githubusercontent.com/48749902/211579513-dfad315a-f0de-4895-a4a8-01efc447622c.png)  
+  * (1) 3.5mm TRS or TRRS male to male cable - Transfer power from Master to Slave  
+  * (1) 2k-10k resistor  
+  * (2) Tactile Micro vertical mount switch (6mmx6mmx8mm total height / 4.5mm button height) - [Aliexpress](https://aliexpress.com/item/1005002723897755.html?spm=a2g0o.order_list.order_list_main.35.383d140fhr34a7)    
+  * (91) Mechanical Keyboard Switches  
+  * (91) Key caps  
+  * (6) 2U plate mount key switch stabilizers  
+  * (2) space bar keys - 2.25u / 2.75u  
+  * Wire - 6 color helps you keep track of what's where.  
+  * (91) 1N4148 Diodes  
+  * (19) 10mm M3 Screw  
+  * (20) 3x5t Neodymium round magnet  
+  * (22) 5x3t Neodymium round magnet  
+  * (4) 10x3t Neodymium round magnet  
+  * (4) 10x5t Neodymium round magnet  
+  * 3M Rubber feet - [Amazon](https://www.amazon.com/gp/product/B00K6RZ9Q2/)  
+
+
+# Assembly  
+asdads
