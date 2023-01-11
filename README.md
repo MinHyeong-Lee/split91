@@ -124,3 +124,5 @@ If you want to compile firmware, clone [vial-qmk](https://github.com/vial-kb/via
     cd vial-qmk
     qmk compile -j 8 -kb split91 -km vial
 
+## License  
+✖ | Commercial Use
