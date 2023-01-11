@@ -102,5 +102,25 @@ Here's the way. [Making two more pins available](https://golem.hu/guide/pro-micr
 Keyboard layout with Encoder for Vial  
 
 ## Controller Programming
-Using [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) for flashing firmware 
+Using [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) for flashing [hex file](https://github.com/MinHyeong-Lee/split91/blob/main/split91_vial.hex)  
+Both left body and right body should be flashed.  
+You can connect usb anywhere on the left or right when you actually use it.  
+
+After flashing, you can use Vial for your keyboard  
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/48749902/211693080-b4cbf3d3-4d23-4e58-871d-3a446105b9b2.png">  
+
+![firmware size](https://user-images.githubusercontent.com/48749902/211693950-6167cc00-e878-4087-8f44-0275e5448699.png)
+
+Vial is convenient but has a large firmware size.
+I tried to reduce the size of the firmware, but I can use only 3 layers.  
+You will be able to increase the number of the layer by compiling yourself except for features that you do not use among Mouse Key and Tab dance, Combo, and Media.  
+
+If you want to compile firmware, clone [vial-qmk](https://github.com/vial-kb/vial-qmk) and move this repo into vial-qmk/keyboards/  
+
+    cd ~/
+    git clone https://github.com/MinHyeong-Lee/split91.git
+    git clone https://github.com/vial-kb/vial-qmk.git
+    mv -r split91 ~/vial-qmk/keyboards/
+    cd vial-qmk
+    qmk compile -j 8 -kb split91 -km vial
 
