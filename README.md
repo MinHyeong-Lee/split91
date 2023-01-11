@@ -54,8 +54,9 @@ If you assemble all of parts after print out stl files, it is as follows.
   * (1) 3.5mm TRS or TRRS male to male cable - Transfer power from Master to Slave  
   * (1) 2k-10k resistor  
   * (2) Tactile Micro vertical mount switch (6mmx6mmx8mm total height / 4.5mm button height) - [Aliexpress](https://aliexpress.com/item/1005002723897755.html?spm=a2g0o.order_list.order_list_main.35.383d140fhr34a7)    
-  * (91) Mechanical Keyboard Switches  
-  * (91) Key caps  
+  * (90) Mechanical Keyboard Switches  
+  * (90) Key caps  
+  * (1) EC11 Rotary Encoder (If you don't need encoder, then need one more switch and keycap)
   * (6) 2U plate mount key switch stabilizers  
   * (2) space bar keys - 2.25u / 2.75u  
   * Wire - 6 color helps you keep track of what's where.  
@@ -81,3 +82,25 @@ left body is as same as split89
 Row and column connection of the right body is shown in the picture above.  
 This is a wirring that matches the keymap I uploaded. If you plan to compile qmk firmware yourself, you can change wirring.  
 Ignore the blue line and look at the red line.  
+
+## Attaching Left, Right Base and Left, Right Body
+split89 used an M3 screw for assembling the top and bottom plates.  
+However, split91 uses a magnet to attach the top and bottom plates.  
+The left body is small in size, so the top and bottom plates are well attached.  
+On the other hand, the output of right body has shrinkage. I think it's because the thickness is thin and the length is long.  
+It is a disadvantage that may occur while using a magnet, so you may need to use a screw or an adhesive if you want.  
+
+### Rotary Encoder
+Two additional pins are required to soldering rotary encoder.
+Here's the way. [Making two more pins available](https://golem.hu/guide/pro-micro-upgrade/)  
+![image](https://user-images.githubusercontent.com/48749902/211687690-32c7f290-4e0f-4a93-9050-03da0012fb5a.png)  
+![image](https://user-images.githubusercontent.com/48749902/211687749-f46cfc25-659c-4c92-860d-3682cb549c13.png)  
+![image](https://user-images.githubusercontent.com/48749902/211687770-37a3afb4-05b1-4f60-ac8c-bff78802c494.png)  
+
+## Keyboard Layout
+![keyboard-layout (1)](https://user-images.githubusercontent.com/48749902/211687979-348c0d56-0b71-4ade-a58f-7fdb6ae98189.png)  
+Keyboard layout with Encoder for Vial  
+
+## Controller Programming
+Using [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) for flashing firmware 
+
